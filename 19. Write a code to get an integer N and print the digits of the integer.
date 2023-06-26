@@ -1,0 +1,14 @@
+Write a code to get an integer N and print the digits of the integer.
+Sample Input :
+348
+Sample Output :
+3 4 8
+
+
+
+
+a = input()
+arr = []
+for i in a:
+    arr.append(i)
+print(*arr) 
