@@ -1,0 +1,19 @@
+Let "A" be a year, write a program to check whether this year is a leap year or not.
+Sample Input :
+2020
+Sample Output :
+Y
+
+
+
+A = int(input())
+if A%4 == 0:
+    if A % 1000 == 0:
+        if A % 400 == 0:
+            print('Y')
+        else:
+             print("N")
+    else:
+        print("Y")
+else:
+    print("N")
