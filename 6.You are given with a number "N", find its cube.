@@ -1,0 +1,10 @@
+You are given with a number "N", find its cube.
+Sample Input :
+2
+Sample Output :
+8
+
+
+
+N = int(input())
+print(N**3)
