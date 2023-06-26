@@ -1,0 +1,11 @@
+You are provided with the radius of a circle "A". Find the length of its circumference.
+Sample Input :
+2
+Sample Output :
+12.57
+
+
+A = float(input())
+C = 2*(22*A)
+D = C/7
+print(round(D,2))
