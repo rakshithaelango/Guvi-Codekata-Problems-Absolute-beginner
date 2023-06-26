@@ -1,0 +1,9 @@
+Print the First 3 multiples of the given number "N". (N is a positive integer)
+Sample Input :
+2
+Sample Output :
+2 4 6
+
+
+N = int(input())
+print(N,N*2,N*3)
