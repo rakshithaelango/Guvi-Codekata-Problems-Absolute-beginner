@@ -1,0 +1,9 @@
+You are provided with a number "N", Find the Nth term of the series: 1, 4, 9, 16, 25, 36, 49, 64, 81, .......
+Sample Input :
+18
+Sample Output :
+324
+
+
+N = int(input())
+print(N**2)
