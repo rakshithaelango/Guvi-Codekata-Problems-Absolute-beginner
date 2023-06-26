@@ -1,0 +1,18 @@
+You are given the coefficients of a quadratic equation in order A, B & C.
+Where A is the coefficient of X2,  B is the coefficient of X and C is the constant term in the most simplified form.
+Example: For  X2 + 5X + 6 = 0, you are given the input as: 1 5 6.
+Write a program to find all of the roots of the quadratic.
+Sample Input :
+1 5 6
+Sample Output :
+-2.00
+-3.00
+
+
+
+a,b,c = map(int,input().split())
+d = ((b**2)-(4*a*c))**0.5
+m = (d-b)/(2*a)
+n = -(d+b)/(2*a)
+print(f'{m:.2f}')
+print(f'{n:.2f}')
