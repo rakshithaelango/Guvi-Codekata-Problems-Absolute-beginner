@@ -1,0 +1,11 @@
+You are given with a number A i.e. the temperature in Celcius. Write a program to convert this into Fahrenheit. 
+Sample Input :
+12
+Sample Output :
+53.60
+
+
+
+temp = int(input())
+far = 1.8*(temp)+32
+print(round(far,2))
