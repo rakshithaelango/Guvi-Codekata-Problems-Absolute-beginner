@@ -1,0 +1,12 @@
+Let "A"  be a string. Remove all the whitespaces and find it's length.
+Sample Input :
+Lorem Ipsum
+Sample Output :
+10
+
+
+
+a = input()
+list1 = a.split()
+new = ''.join(list1)
+print(len(new))
