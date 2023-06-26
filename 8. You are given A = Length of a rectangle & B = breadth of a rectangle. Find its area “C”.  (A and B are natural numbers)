@@ -1,0 +1,12 @@
+You are given A = Length of a rectangle & B = breadth of a rectangle. Find its area “C”.
+(A and B are natural numbers)
+Sample Input :
+2
+3
+Sample Output :
+6
+
+
+A = int(input())
+B = int(input())
+print(round(A*B,1))
