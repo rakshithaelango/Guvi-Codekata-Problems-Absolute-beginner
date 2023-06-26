@@ -1,0 +1,15 @@
+You are provided with a number check whether its odd or even. 
+Print "Odd" or "Even" for the corresponding cases.
+Sample Input :
+2
+Sample Output :
+Even
+
+
+
+
+a = int(input())
+if a % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
